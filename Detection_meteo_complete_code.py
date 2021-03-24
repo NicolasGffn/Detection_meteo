@@ -15,11 +15,8 @@ from sklearn.model_selection import cross_val_score
 from sklearn import model_selection
 import matplotlib.pyplot as plt
 import statistics as stat
-
-
-
-# La bibliothèque annonçait un message sur de futures mises à jour, on l'enlève par cette commande
 from warnings import simplefilter
+
 simplefilter(action='ignore', category=FutureWarning)
 
 	
